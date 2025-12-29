@@ -53,7 +53,7 @@ class Vision:
 		insurance_yes_location = pyautogui.locateCenterOnScreen(Image.open(f'img/{region_selected["insurance_yes"]}.png'), confidence = 0.9)
 		insurance_no_location = pyautogui.locateCenterOnScreen(Image.open(f'img/{region_selected["insurance_no"]}.png'), confidence = 0.9)
 		burn_cards_location = pyautogui.locateCenterOnScreen(Image.open(f'img/{region_selected["bcp"]}.png'), confidence = 0.9)
-		chip_location = pyautogui.locateCenterOnScreen(Image.open(f'img/{region_selected["chip"]}.png'), confidence = 0.9)
+		chip_location = pyautogui.locateCenterOnScreen(Image.open(f'img/{region_selected["chip"]}.png'), confidence = 0.8)
 		ll_location = pyautogui.locateCenterOnScreen(Image.open(f'img/{region_selected["ll"]}.png'), confidence = 0.8)
 
 		player_total = 0
@@ -115,3 +115,4 @@ class Vision:
 			"split": region_selected["split"],
 
 		}
+
