@@ -8,10 +8,10 @@ import os
 pyscreeze.USE_IMAGE_NOT_FOUND_EXCEPTION = False
 
 region_stake = {
-	"dealer":(600, 526, 180, 18),
-	"player":(900, 676, 180, 18),
-	"player_split_1":(1000, 676, 180, 18),
-	"player_split_2":(750, 676, 180, 18),
+	"dealer":(600, 530, 180, 18),
+	"player":(900, 680, 180, 18),
+	"player_split_1":(1000, 680, 180, 18),
+	"player_split_2":(750, 680, 180, 18),
 	"bet": "bet",
 	"cards": "cards",
 	"bcp": "bcp",
@@ -22,7 +22,7 @@ region_stake = {
 	"insurance_yes":"insurance_yes",
 	"insurance_no":"insurance_no",
 	"chip":"chip",
-	"split": (1100, 520),
+	"split": (1100, 535),
 	"ll":"ll"
 }
 
@@ -113,4 +113,5 @@ class Vision:
 			"chip_location": chip_location,
 			"ll_location": ll_location,
 			"split": region_selected["split"],
+
 		}
