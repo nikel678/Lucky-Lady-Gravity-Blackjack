@@ -1,4 +1,4 @@
-# LuckyLady-Gravity-Blackjack
+# Lucky-Lady-Gravity-Blackjack
 Python automatic blackjack card counting bot for Gravity Blackjack.
 
 Focuses on vulnerable side bet "Any 20 &amp; Queens".
