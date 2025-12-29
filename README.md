@@ -33,7 +33,7 @@ How to run:
 
 
 
-How to fix:
+How to fix (if needed):
 - Images will need to be recaptured in certain cases. Gui change is common.
 - Use cc.py and the web gui located at 127.0.0.1:777 to help debug.
 
