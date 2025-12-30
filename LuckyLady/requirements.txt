@@ -4,5 +4,4 @@ fastapi
 asyncio
 jinja2
 pillow
-pytesseract
 numpy
