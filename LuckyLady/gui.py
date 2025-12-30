@@ -5,7 +5,6 @@ from counter import ICounter
 import base64
 from PIL import Image
 import asyncio
-import numpy as np
 from io import BytesIO
 
 
@@ -38,3 +37,4 @@ class GUI:
         image_b64 = base64.b64encode(buffer.getvalue()).decode("utf-8")
 
         return image_b64
+
