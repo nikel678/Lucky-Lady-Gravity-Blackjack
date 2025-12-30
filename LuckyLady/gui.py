@@ -4,7 +4,6 @@ from fastapi.templating import Jinja2Templates
 from counter import ICounter
 import base64
 from PIL import Image
-from pytesseract import pytesseract 
 import asyncio
 import numpy as np
 from io import BytesIO
@@ -37,4 +36,5 @@ class GUI:
         buffer = BytesIO()
         img.save(buffer, format="PNG")
         image_b64 = base64.b64encode(buffer.getvalue()).decode("utf-8")
+
         return image_b64
