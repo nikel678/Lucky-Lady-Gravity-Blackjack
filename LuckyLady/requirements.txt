@@ -5,3 +5,4 @@ asyncio
 jinja2
 pillow
 numpy
+opencv-python
